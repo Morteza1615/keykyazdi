@@ -16,8 +16,8 @@ function run(msg)
 	.."     `/sendtoall {message}`\n\n"
 	.."   *All users list:*\n"
 	.."     /users"
-	about_txt = "*KeykYazdi Robot* v"..bot_version.."\n\n   _- Send Message by SMS_\n   _- Add, Edit & Remove Caption_\n   _- Send Inline Keyboard_\n   _- Remove Forward Info_\n   _- Send Bold,Italic and Cod Text_\n   _- Send Hyper Link_\n   _- Timer for Post to Next Time_\n   _- & More..._\n\n`Made in Umbrella Team and Powered by shayan soft Co. Group`\nProgrammer and Idea:\n[Engineer Shayan Ahmadi](https://instagram.com/shayan_soft)\nDesigner: [Pedram Naderi](https://instagram.com/pediw)"
-	about_key = {{{text = "وبسایت رسمی" , url = "http://Umbrella.shayan-soft.ir"}},{{text = "کانال رسمی" , url = "https://telegram.me/UmbrellaTeam"}},{{text = "ربات تیم" , url = "https://telegram.me/UmbreIIaBot"}},{{text = "اینستاگرام" , url = "https://instagram.com/UmbrellaTeam"}},{{text = "پیام رسان" , url = "https://telegram.me/shayansoftBot"}},{{text = "مدیریت" , url = "https://telegram.me/shayan_soft"}}}
+	about_txt = "*KeykYazdi Robot* v"..bot_version.."\n\n   _- Send Message by SMS_\n   _- Add, Edit & Remove Caption_\n   _- Send Inline Keyboard_\n   _- Remove Forward Info_\n   _- Send Bold,Italic and Cod Text_\n   _- Send Hyper Link_\n   _- Timer for Post to Next Time_\n   _- & More..._\n\n`Made in wolf Team and Powered by morteza Co. Group`\nProgrammer and Idea:\n[morteza_77](https://telegram.me/wolff_team)\nDesigner:"
+	about_key = {{{text = "چنل" , url = "https://telegram.me/wolffteam"}},{{text = "کانال رسمی" , url = "https://telegram.me/wolffteam"}},{{text = "ربات تیم" , url = "https://telegram.me/pvresan_moribot"}},{{text = "پیام رسان" , url = "https://telegram.me/pvresan_moribot"}},{{text = "مدیریت" , url = "https://telegram.me/wolff_team"}}}
 	start_txt = "به ربات "..bot.first_name..' خوش آمدید\nاین ربات در حالت اینلاین رایگان است و برای آموزش بیشتر به بخش "راهنمای استفاده رایگان" مراجعه کنید.\n`استفاده ی وی آی پی از این ربات رایگان نبوده و جهت تهیه ی اکانت از طریق پل های ارتباطی موجود در بخش "ارتباط با ما" اقدام نمایید و با ما تماس بگیرید. هزینه ی استفاده از این ربات ماهانه 5.000 تومان میباشد.\nاز جمله قابلیات این ربات میتوان به موارد زیر اشاره کرد:\n-ارسال متن به کانال از طریق پیامک (اس ام اس)\n-ارسال کیبرد شیشه ای به کانال\n-افزودن، ویرایش و حذف درج نویس در فورواردها\n-حذف منبع فورواردها\n-ارسال زماندار پست\n-ارسال متون با استایل و فونت های مختلف\n-افزودن لینک به یک کلمه\n-و...`'
 	start_key = {{"راهنمای ربات","راهنمای استفاده رایگان"},{"مثال کیبرد اینلاین و مارک داون"},{"ربات پیام رسان","ارتباط با ما"}}
 	keyboard = {{"ارسال کیبرد شیشه ای به کانال"},{"فوروارد به کانال بدون منبع"},{"ارسال هر نوع فایل با زیر نویس"},{"ارسال پست با فونت های مختلف"},{"ارسال پست با SMS","ارسال پست زماندار"},{"ثبت امضا","حذف امضا","نمایش امضا"},{"راهنما","درباره ما","اطلاعات کانال"}}
@@ -25,7 +25,7 @@ function run(msg)
 	help_user_ok = [[راهنمای جامع ربات مدیریت کانال کیک یزدی:
 
 حالت رایگان و اینلاین:
-`با استفاده از قابلیت اینلاین میتوانید به رایگان کلید شیشه ای به کانال خود اضاه کنید. دقت کنید که در حالت رایگان برای هر پست قادر به افزودن فقط یک کلید هستید. برای استفاده، یوزر ربات یعنی @KeykYazdiBot را تایپ کنید و یک فاصله بزنید، متن مورد نظر را وارد نمایید که تیتر شما و متن اصلی شما میباشد و دقت کنید که در آن قابلت مارک داون هم فعال است، پی از تایپ متن مورد نظر، علامت # را بگذارید و متن کلید را وارد کنید، سپس علامت = را وارد کرده و بعد لینک را وارد نمایید، دقت کنید که لینک با http:// یا https:// شروع شود. پس از انجام این مراحل علامت > را بگذارید و منتظر باشید تا کلید ارسال به چت نمایش داده شود، با انتخاب آن کیبرد شما به چت اضاف خواهد شد.`
+`با استفاده از قابلیت اینلاین میتوانید به رایگان کلید شیشه ای به کانال خود اضاه کنید. دقت کنید که در حالت رایگان برای هر پست قادر به افزودن فقط یک کلید هستید. برای استفاده، یوزر ربات یعنی @manaager_bot را تایپ کنید و یک فاصله بزنید، متن مورد نظر را وارد نمایید که تیتر شما و متن اصلی شما میباشد و دقت کنید که در آن قابلت مارک داون هم فعال است، پی از تایپ متن مورد نظر، علامت # را بگذارید و متن کلید را وارد کنید، سپس علامت = را وارد کرده و بعد لینک را وارد نمایید، دقت کنید که لینک با http:// یا https:// شروع شود. پس از انجام این مراحل علامت > را بگذارید و منتظر باشید تا کلید ارسال به چت نمایش داده شود، با انتخاب آن کیبرد شما به چت اضاف خواهد شد.`
 	
 ارسال پست با فونت های مختلف:
 `از این طریق میتوانید متون خود را با استایل های فونتی مختلف به کانال ارسال کنید. با انتخاب این گزینه راهنما و مثال ها را ب صورت تشریحی نظاره خواهید کرد. دقت کنید که از این طریق میتوانید هایپر لینک هم در متن خود قرار دهید. منظور از ایپر لینک، لینکی است که روی یک کلمه یا جمله قرار میگیرد. به قابلیت استایل نویسی مارک داون گفته یشود. حد اکثر حروف مجاز متن ورودی 4000 کاراکتر میباشد و فقط میتوانید از متن با زبانهای مخلف در این بخش بهره ببرید.`
@@ -74,14 +74,14 @@ function run(msg)
 			return send_key(msg.from.id, start_txt, start_key)
 		end
 	elseif msg.text == "ربات پیام رسان" then
-		return send_msg(msg.from.id, "`اگر ریپورت هستید از طریق این ربات میتوانید با ما ارتباط برقرار کنید. در صورتی که ربات پیام رسان ما را نیز برسی کردید و علاقه ای به داشتن آن دارید، میتوانید سفارش دهید.`\n@shayansoftBot", true)
+		return send_msg(msg.from.id, "`اگر ریپورت هستید از طریق این ربات میتوانید با ما ارتباط برقرار کنید. در صورتی که ربات پیام رسان ما را نیز برسی کردید و علاقه ای به داشتن آن دارید، میتوانید سفارش دهید.`\n@pvresan_moribot", true)
 	elseif msg.text == "راهنمای استفاده رایگان" then
-		return send_msg(msg.from.id, "قابلیت اینلاین ربات کید یزدی به صورت رایگان:\n`با استفاده از قابلیت اینلاین میتوانید به رایگان کلید شیشه ای به کانال خود اضاه کنید. دقت کنید که در حالت رایگان برای هر پست قادر به افزودن فقط یک کلید هستید. برای استفاده، یوزر ربات یعنی @KeykYazdiBot را تایپ کنید و یک فاصله بزنید، متن مورد نظر را وارد نمایید که تیتر شما و متن اصلی شما میباشد و دقت کنید که در آن قابلت مارک داون هم فعال است، پی از تایپ متن مورد نظر، علامت # را بگذارید و متن کلید را وارد کنید، سپس علامت = را وارد کرده و بعد لینک را وارد نمایید، دقت کنید که لینک با http:// یا https:// شروع شود. پس از انجام این مراحل علامت > را بگذارید و منتظر باشید تا کلید ارسال به چت نمایش داده شود، با انتخاب آن کیبرد شما به چت اضاف خواهد شد.`", true)
+		return send_msg(msg.from.id, "قابلیت اینلاین ربات کید یزدی به صورت رایگان:\n`با استفاده از قابلیت اینلاین میتوانید به رایگان کلید شیشه ای به کانال خود اضاه کنید. دقت کنید که در حالت رایگان برای هر پست قادر به افزودن فقط یک کلید هستید. برای استفاده، یوزر ربات یعنی @manaager_bot را تایپ کنید و یک فاصله بزنید، متن مورد نظر را وارد نمایید که تیتر شما و متن اصلی شما میباشد و دقت کنید که در آن قابلت مارک داون هم فعال است، پی از تایپ متن مورد نظر، علامت # را بگذارید و متن کلید را وارد کنید، سپس علامت = را وارد کرده و بعد لینک را وارد نمایید، دقت کنید که لینک با http:// یا https:// شروع شود. پس از انجام این مراحل علامت > را بگذارید و منتظر باشید تا کلید ارسال به چت نمایش داده شود، با انتخاب آن کیبرد شما به چت اضاف خواهد شد.`", true)
 	elseif msg.text == "ارتباط با ما" or msg.text == "درباره ما" then
 		return send_inline(msg.from.id, about_txt, about_key)
 	elseif msg.text == "مثال کیبرد اینلاین و مارک داون" then
-		inlinekey = {{{text = "وبسایت تیم آمبرلا" , url = "http://Umbrella.shayan-soft.ir"}},{{text = "کانال تیم آمبرلا" , url = "https://telegram.me/UmbrellaTeam"}},{{text = "ربات تیم آمبرلا" , url = "https://telegram.me/UmbreIIaBot"}}}
-		text = "مثال استایل نویس با فونتهای مختلف:\n*Umbrella Team*\nUmbrella Team\n_Umbrella Team_\n`Umbrella Team`\nتیم آمبرلا پروجکت\n`تیم آمبرلا پروجکت`\nمثال هایپر لینک:\n[تیم آمبرلا پروجکت](telegram.me/UmbrellaTeam)\n[Umbrella Team](telegram.me/UmbrellaTeam)\nمثال کیبرد اینلاین:"
+		inlinekey = {{{text = "چنل" , url = "https://telegram.me/wolffteam"}},{{text = "کانال تازه تاسیس ولف" , url = "https://telegram.me/wolffteam"}},{{text = "ربات تیم آمبرلا" , url = "https://telegram.me/pvresan_moribot"}}}
+		text = "مثال استایل نویس با فونتهای مختلف:\n*wolffteam Team*\wolffteam Team\n_wolffteam Team_\n`wolffteam Team`\nتیم ولف پروجکت\n`تیم ولف پروجکت`\nمثال هایپر لینک:\n[تیم ولف پروجکت](telegram.me/wolffTeam)\n[wolff Team](telegram.me/wolffTeam)\nمثال کیبرد اینلاین:"
 		return send_inline(msg.from.id, text, inlinekey)
 	elseif msg.text == "راهنما" or msg.text == "/help" or msg.text == "راهنمای ربات" then
 		if msg.from.id == sudo_id then
@@ -127,7 +127,7 @@ function run(msg)
 				return send_msg(sudo_id, "`کاربر مورد نظر با شناسه "..tostring(target[1]).." افزوده شد`", true)
 			end
 		else
-			return send_msg(sudo_id, "*/add 12345678,@Umbrella,9121234567*\n`/add [telegram id],[@channel],[number]`", true)
+			return send_msg(sudo_id, "*/add 191128096,@wolffteam,9378284718*\n`/add [telegram id],[@channel],[number]`", true)
 		end
 	elseif msg.text:find('/edit') and msg.from.id == sudo_id then
 		local usertarget = msg.text:input()
@@ -152,7 +152,7 @@ function run(msg)
 				return send_msg(sudo_id, "`کاربر مورد نظر فاقد حساب کاربری میباشد`", true)
 			end
 		else
-			return send_msg(sudo_id, "*/edit 12345678,@Umbrella,9121234567*\n`/edit [telegram id],[@channel],[number]`", true)
+			return send_msg(sudo_id, "*/edit 191128096,@wolffteam,9378284718*\n`/edit [telegram id],[@channel],[number]`", true)
 		end
 	elseif msg.text:find('/sendtoall') and msg.from.id == sudo_id then
 		local usertarget = msg.text:input()
@@ -240,7 +240,7 @@ function run(msg)
 	elseif msg.text == "ارسال پست با فونت های مختلف" then
 		users[userid].action = 1
 		save_data("users.json", users)
-		return send_key(msg.from.id, "از این طریق میتوانید متون خود را با قابلیت مارک داون و با فونت های مختلف به کانال اضافه کنید.\n\n`برای کلفت نویسی، متن مورد نظر را بین 2 عدد * قرار دهید. دقت کنید این قابلیت مربوط به حروف انگلیسی است. مثال:\n*`Umbrella`* =` *Umbrella*\n\n`برای کج نویسی، متن مورد نظر را بین 2 عدد _ قرار دهید. دقت کنید این قابلیت مربوط به حروف انگلیسی است. مثال:\n_`Umbrella`_ = `_Umbrella_\n\n*برای ماشین نویسی یا نوستن با حالت کدینگ، متن مورد نظر را بین 2 عدد ` قرار دهید. مثال:\n`*Umbrella*`=*  `Umbrella`\n\n`برای لینک نویسی و هایپر لینک، متن مورد نظر را بین [] قرار دهید و لینک مورد نظر را نیز بین () بگذارید. مثال:\n[Umbrella](telegram.me/umbrellateam)` = [Umbrella](telegram.me/umbrellateam)\n\nمتن خود را طبق فرمول گفته شده ارسال کنید", {{"لغو"}}, true)
+		return send_key(msg.from.id, "از این طریق میتوانید متون خود را با قابلیت مارک داون و با فونت های مختلف به کانال اضافه کنید.\n\n`برای کلفت نویسی، متن مورد نظر را بین 2 عدد * قرار دهید. دقت کنید این قابلیت مربوط به حروف انگلیسی است. مثال:\n*`wolffteam`* =` *wolffteam*\n\n`برای کج نویسی، متن مورد نظر را بین 2 عدد _ قرار دهید. دقت کنید این قابلیت مربوط به حروف انگلیسی است. مثال:\n_`wolfteam`_ = `_wolffteam_\n\n*برای ماشین نویسی یا نوستن با حالت کدینگ، متن مورد نظر را بین 2 عدد ` قرار دهید. مثال:\n`*wolffteam*`=*  `wolffteam`\n\n`برای لینک نویسی و هایپر لینک، متن مورد نظر را بین [] قرار دهید و لینک مورد نظر را نیز بین () بگذارید. مثال:\n[wolffteam](telegram.me/wolffteam)` = [wolffteam](telegram.me/wolffteam)\n\nمتن خود را طبق فرمول گفته شده ارسال کنید", {{"لغو"}}, true)
 	elseif msg.text == "ارسال کیبرد شیشه ای به کانال" then
 		users[userid].action = 4
 		save_data("users.json", users)
